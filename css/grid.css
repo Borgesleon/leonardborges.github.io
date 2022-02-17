@@ -1,0 +1,56 @@
+body,
+h1,
+h2 {
+  margin: 0px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+
+.principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 40px 10px;
+}
+
+.item {
+  border: solid 1px #ddd;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+h2 {
+  grid-column: 1/-1;
+}
+
+span {
+  background: coral;
+  color: black;
+  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+a {
+  background: coral;
+  color: black;
+  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.info {
+  display: grid;
+  place-content: center;
+  gap: 10px;
+}

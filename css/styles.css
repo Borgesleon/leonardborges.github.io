@@ -1,0 +1,62 @@
+body {
+  background-image: url("/imagens/wolf.jpg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.titulo {
+  text-align: center;
+  color: #5d3851;
+  font-size: 50px;
+  font-family: "Verdana";
+}
+hr {
+  height: 10px;
+  background: purple;
+  border: 0;
+}
+
+p {
+  text-align: justify;
+  color: aliceblue;
+}
+a {
+  color: rgb(153, 10, 10);
+  text-decoration: none;
+}
+span {
+  color: rgb(113, 10, 139);
+}
+.imgwolf {
+  width: 40%;
+  display: block;
+  size: 40px;
+}
+
+#videogalinha {
+  width: 40%;
+}
+@media (max-width: 651px) {
+  #videogalinha {
+    width: 100%;
+  }
+}
+
+.videoinfantil {
+  display: block;
+  margin-bottom: 20px;
+}
+button {
+  background: rgb(113, 10, 139);
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.box {
+  background: rgb(240, 210, 139);
+  padding: 20px;
+  width: 200px;
+  margin-bottom: 25px;
+}

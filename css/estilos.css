@@ -1,0 +1,104 @@
+body,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+body {
+  background: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.menu a {
+  background: #ffffff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+.principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.introducao {
+  display: grid;
+  place-content: center;
+  gap: 20px;
+  padding: 40px;
+  background: white;
+  justify-items: end;
+}
+
+.introducao a {
+  padding: 16px 32px;
+  background: red;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.introducao h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.introducao p {
+  line-height: 26px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.vantagens {
+  padding: 40px;
+  place-content: center;
+}
+
+.vantagens h2 {
+  font-size: 64px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  align-self: center;
+  background-image: url("https://kotchopires.github.io/imagens/onda.svg");
+}
+
+.detalhes {
+  padding: 40px;
+  display: grid;
+}
+
+.detalhes_item {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+}
+
+.detalhes_item p {
+  grid-column: 2;
+}

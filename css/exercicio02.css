@@ -1,0 +1,46 @@
+body,
+h2 {
+  margin: 0px;
+}
+
+.titulo {
+  text-align: center;
+  color: rgb(17, 115, 172);
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+hr {
+  width: 50%;
+  height: 10px;
+  background-color: rgb(26, 215, 221);
+  border: 0px;
+}
+h2 {
+  grid-column: 1/-1;
+  text-align: center;
+}
+a {
+  grid-column: 1/-1;
+}
+.item {
+  padding: 20px;
+  background: rgb(240, 239, 239);
+  border: 1px solid #ddd;
+  width: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  place-items: center;
+}
+
+.item a {
+  text-decoration: none;
+  background: #ef0;
+  padding: 15px;
+  border-radius: 5px;
+  justify-self: start;
+}
+.chiuaua {
+  grid-row: 1/-1;
+}
